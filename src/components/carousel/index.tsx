@@ -22,12 +22,14 @@ const PortfolioCarousel = () => {
   const [isFlipped, setIsFlipped] = useState(false);
   const isMobile = useDeviceType();
 
+  console.log(isFlipped);
   const prevProject = useCallback(() => {
     setIsFlipped(false);
     setCurrent((prev) => (prev === 0 ? projects.length - 1 : prev - 1));
   }, []);
 
   const nextProject = useCallback(() => {
+
     setIsFlipped(false);
     setCurrent((prev) => (prev === projects.length - 1 ? 0 : prev + 1));
   }, []);
