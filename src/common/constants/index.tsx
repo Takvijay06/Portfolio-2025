@@ -8,3 +8,9 @@ export const socialMediaLinks = [
   { label: "Github", link: "https://github.com/Takvijay06" },
   { label: "Discord", link: "https://github.com/Takvijay06" },
 ];
+
+export const tags = [
+  "a Full Stack Developer",
+  "a Frontend Engineer",
+  "a Backend Engineer",
+];
