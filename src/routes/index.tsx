@@ -7,6 +7,7 @@ import NotFound from "../pages/notFound";
 import AuthGuard from "../components/AuthGuard";
 import Profile from "../pages/profile";
 import { routes } from "./routes";
+import { MyWork } from "../pages/myWork";
 
 export const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ export const router = createBrowserRouter([
       { index: true, Component: Home },
       { path: routes.about, Component: About },
       { path: routes.contact, Component: Contact },
-      { path: routes.ayush, Component: Contact },
+      { path: routes.myWork, Component: MyWork },
       { path: "*", Component: NotFound },
       {
         path: routes.profile,

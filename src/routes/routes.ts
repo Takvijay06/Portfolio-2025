@@ -3,5 +3,5 @@ export const routes ={
     about:"about",
     contact:"contact",
     profile:"profile",
-    ayush:"ayush"
+    myWork:"myWork"
 } 

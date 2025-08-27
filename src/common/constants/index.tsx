@@ -2,6 +2,7 @@ export const links = [
   { label: "Home", link: "/" },
   { label: "About", link: "/about" },
   { label: "Contact", link: "/contact" },
+  { label: "My Work", link: "/myWork" },
 ];
 
 export const socialMediaLinks = [
