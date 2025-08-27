@@ -66,8 +66,9 @@ const OTP = ({ length = 4 }: OTPProps) => {
           {otpFields.map((otp, index) => (
             <input
               key={index}
-              ref={(el) => (inputRefs.current[index] = el)}
-              type="text"
+              ref={(el) => {
+                inputRefs.current[index] = el;
+              }}
               inputMode="numeric"
               maxLength={1}
               value={otp}
